@@ -29,6 +29,7 @@ Você é desenvolvedora de um sistema de gerenciamento ambiental e possui em mã
 **Exercício 1:**
 
 **Na classe Animal:**
+
 a) Crie um método `get` para a idade.
 
 b) Crie um método `set` para a idade. Nesse método, a idade só pode ser atribuída caso o valor recebido seja maior do que zero. Caso contrário, retorne uma mensagem com "Idade inválida!".
@@ -38,6 +39,7 @@ b) Crie um método `set` para a idade. Nesse método, a idade só pode ser atrib
 **Exercício 2:**
 
 **Na classe Ave:**
+
 a) Sobrescreva o atributo `tipo` como `ave`.
 
 b) Declare um atributo `quantidadePenas`.
@@ -51,6 +53,7 @@ d) Crie um método `voar()`. A implementação dele será um console.log que imp
 **Exercício 3:**
 
 **Na classe Papagaio:**
+
 a) Sobrescreva o atributo `tipo` como `papagaio`.
 
 b) Declare um atributo `raca`.
@@ -62,6 +65,7 @@ c) Sobrescreva o construtor para que, agora, a classe receba `raca`.
 **Exercício 4:**
 
 **Na classe Mamífero:**
+
 a) Sobrescreva o atributo `tipo` como `mamífero`.
 
 b) Declare um atributo `quantidadeMamas`.
@@ -77,6 +81,7 @@ e) Sobrescreva o método `falar()` por completo. Agora, o método deve ser um co
 **Exercício 5:**
 
 **Na classe Cachorro:**
+
 a) Sobrescreva o atributo `tipo` como `cachorro`.
 
 b) Declare um atributo `raca`.
@@ -92,6 +97,7 @@ e) Sobrescreva o método `falar()`. Agora, o método continuará fazendo o mesmo
 **Exercício 6:**
 
 **Na classe Gato:**
+
 a) Sobrescreva o atributo `tipo` como `gato`.
 
 b) Declare um atributo `raca`.

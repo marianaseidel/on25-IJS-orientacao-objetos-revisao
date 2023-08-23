@@ -39,12 +39,15 @@ O que veremos na aula de hoje?
         - [Get](#get)
         - [Set](#set)
       - [Herança](#herança)
+        - [Sobrescrita de atributo](#sobrescrita-de-atributo)
+        - [Sobrescrita de construtor](#sobrescrita-de-construtor)
       - [Polimorfismo](#polimorfismo)
         - [Sobrescrita de método](#sobrescrita-de-método)
 
   - [Exercícios](#exercícios)
   - [Material da aula](#material-da-aula)
   - [Links Úteis](#links-úteis)
+  - [Contatos da prô](#contatos-da-prô)
 
 # Conteúdo
 
@@ -485,9 +488,16 @@ Na prática, para a POO funcionar, ela precisa utilizar de 4 pilares básicos. E
 * [Material](/material)
 
 ### Links Úteis
-* 
+* [Semana 5 - Introdução à Orientação a Objeto I](https://github.com/reprograma/on25-IJS-orientacao-objetos-I)
+* [Semana 6 - Introdução à Orientação a Objeto II](https://github.com/reprograma/on25-IJS-orientacao-objetos-II)
+
+### Contatos da prô
+
+- [LinkedIn](https://www.linkedin.com/in/luarakerlen/)
+- [Github](https://github.com/luarakerlen)
+- [Instagram](https://www.instagram.com/luaratech/)
 
 <p align="center">
-Desenvolvido com :purple_heart:  
+Desenvolvido com &#128156 por Luara Kerlen
 </p>
 

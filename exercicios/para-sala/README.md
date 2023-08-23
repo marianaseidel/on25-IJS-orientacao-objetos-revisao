@@ -1,9 +1,7 @@
 # Exercício de Sala 🏫  
 
-## Nome do Exercicio
-
-- Explicação do exercício: 
 Hoje trabalharemos em um projeto já existente.
+
 Você é desenvolvedora de um sistema de gerenciamento ambiental e possui em mãos um projeto com a seguinte estrutura:
 
 - [ ] Uma classe `Animal`, que possui como atributos:

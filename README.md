@@ -11,7 +11,6 @@ Antes de começar, vamos organizar nosso setup.
 * Fork esse repositório 
 * Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
 * Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras intrucoes caso necessario]
 
 ### Objetivo
 Revisar e reforçar o que é Programação Orientada a Objetos e seus principais conceitos.
@@ -45,7 +44,6 @@ O que veremos na aula de hoje?
         - [Sobrescrita de método](#sobrescrita-de-método)
 
   - [Exercícios](#exercícios)
-  - [Material da aula](#material-da-aula)
   - [Links Úteis](#links-úteis)
   - [Contatos da prô](#contatos-da-prô)
 
@@ -482,10 +480,7 @@ Na prática, para a POO funcionar, ela precisa utilizar de 4 pilares básicos. E
 
 ***
 ### Exercícios 
-* [Exercicio para sala](/exercicios/para-sala/)
-
-### Material da aula 
-* [Material](/material)
+* [Exercício para sala](/exercicios/para-sala/)
 
 ### Links Úteis
 * [Semana 5 - Introdução à Orientação a Objeto I](https://github.com/reprograma/on25-IJS-orientacao-objetos-I)

@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Turma Online 25 - Imersão JavaScript | Semana extra - Orientação a Objetos | 2023 | Professora: [Luara Kerlen](https://github.com/luarakerlen)
+Turma Online 25 - Imersão JavaScript | Aula extra - Orientação a Objetos | 2023 | Professora: [Luara Kerlen](https://github.com/luarakerlen)
 
 ### Instruções
 Antes de começar, vamos organizar nosso setup.

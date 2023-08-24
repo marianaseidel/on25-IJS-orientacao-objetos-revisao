@@ -100,7 +100,6 @@ A POO é um paradigma de programação que se propõe a abordar o design de um s
   class Funcionario {
     nome;
     salario;
-    aumento = 1000;
 
     constructor(nomeDoFuncionario, salarioDoFuncionario) {
       this.nome = nomeDoFuncionario;
@@ -108,7 +107,7 @@ A POO é um paradigma de programação que se propõe a abordar o design de um s
     }
 
     receberAumento(aumento) {
-      this.salario = this.salario + this.aumento;
+      this.salario = this.salario + aumento;
     }
   }
 ```
@@ -125,23 +124,23 @@ Na prática, para a POO funcionar, ela precisa utilizar de 4 pilares básicos. E
 
   Vamos analisar a seguinte classe:
   ```javascript
-  public class Conta {
+  class Conta {
     cod_banco;
     num_conta;
     saldo;
     limite;
 
-    void ConsultarSaldo() {
-      console.log(“Conta: ” + this.num_conta);
-      console.log(“Saldo: ” + this.saldo);
+    consultarSaldo() {
+      console.log('Conta: ' + this.num_conta);
+      console.log('Saldo: ' + this.saldo);
     }
 
-    void Depositar(valor) {
-        this.saldo = this.saldo + valor;
+    depositar(valor) {
+      this.saldo = this.saldo + valor;
     }
 
-    void Sacar(valor) {
-        this.saldo = this.saldo - valor;
+    sacar(valor) {
+      this.saldo = this.saldo - valor;
     }
   }
   ```
@@ -249,6 +248,7 @@ Na prática, para a POO funcionar, ela precisa utilizar de 4 pilares básicos. E
   - Deve ter **exatamente um** parâmetro.
   - Pode ter um identificador do tipo numérico ou string.
   - Não pode ter a mesma nomenclatura para propriedade e função.
+  - Idealmente, não deve retornar o parâmetro alterado, pois isso é função do `get`.
 
   ---
 
@@ -316,10 +316,10 @@ Na prática, para a POO funcionar, ela precisa utilizar de 4 pilares básicos. E
   animal1.apresentar(); // Pipoca é um animal
 
   const cachorro1 = new Cachorro('Aslam');
-  cachorro1.falar(); // Aslam é um animal
+  cachorro1.apresentar(); // Aslam é um animal
 
   const gato1 = new Gato('Salém');
-  gato1.falar(); // Salém é um animal
+  gato1.apresentar(); // Salém é um animal
   ```
 
   Porém, é possível sobrescrever o valor do atributo dentro da classe filha, bastando, para isso, escrever o atributo com o mesmo nome dentro da classe filha e passando o valor desejado.
@@ -351,10 +351,10 @@ Na prática, para a POO funcionar, ela precisa utilizar de 4 pilares básicos. E
   animal1.apresentar(); // Pipoca é um animal
 
   const cachorro1 = new Cachorro('Aslam');
-  cachorro1.falar(); // Aslam é um cachorro
+  cachorro1.apresentar(); // Aslam é um cachorro
 
   const gato1 = new Gato('Salém');
-  gato1.falar(); // Salém é um gato
+  gato1.apresentar(); // Salém é um gato
   ```
 
   #### Sobrescrita de construtor
